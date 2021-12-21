@@ -1,0 +1,8 @@
+
+
+composer create-project --prefer-dist laravel/laravel:^7.0 blog  //install project
+composer create-project laravel/laravel  Namw "verson"
+php artisan serve // run project
+php artisan make:Controller welcome   // make controller 
+php artisan make:Controller welcome --resource  // make controller  with resource
+php artisan route:list // for see route
