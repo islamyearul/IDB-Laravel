@@ -7,7 +7,7 @@
             <div class="card py-5 px-5">
                 <div class="card-header">Category Post</div>
 
-                <form action="{{ url('/store-post') }}" method="post">
+                <form action="{{ url('/store-post') }}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                       <label for="exampleFormControlInput1">Title</label>
